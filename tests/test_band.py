@@ -99,7 +99,7 @@ def test_instruments(one_band):
         assert member.get_instrument() == instruments[i]
 
 
-@pytest.mark.skip("pending")
+# @pytest.mark.skip("pending")
 def test_individual_solos(one_band):
     for member in one_band.members:
         if member.get_instrument() == "guitar":
